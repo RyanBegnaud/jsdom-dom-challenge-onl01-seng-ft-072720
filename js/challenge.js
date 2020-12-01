@@ -10,3 +10,6 @@ function upNumber(){
   number.textContent = parseInt(number.textContent) + 1
 }
 
+function downNumber(){
+  number.textContent = parseInt(number.textContent) - 1
+}
