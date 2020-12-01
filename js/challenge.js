@@ -1,5 +1,4 @@
 let number = document.getElementById("counter")
-number.addEventListener("DOMContentLoaded", function(e){
+number.addEventListener("DOMContentLoaded", setInterval(){
   
-setInterval(function(){number.innerText = "2" }, 1000);
 })
