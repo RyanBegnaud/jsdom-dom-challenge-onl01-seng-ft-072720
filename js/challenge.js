@@ -17,5 +17,5 @@ function downNumber(){
 plus.addEventListener("click", upNumber);
 minus.addEventListener("click", downNumber);
 pause.addEventListener("click", function(){
-  clearTimeout(number);
+  clearTimeout(timer);
 })
