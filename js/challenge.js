@@ -1,6 +1,7 @@
 let number = document.getElementById("counter")
 let plus = document.getElementById("plus")
 let minus = document.getElementById("minus")
+let pause = document.getElementById("pause")
 
 number.addEventListener("DOMContentLoaded", setInterval(upNumber, 1000));
 
