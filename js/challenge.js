@@ -3,6 +3,7 @@ let plus = document.getElementById("plus")
 
 number.addEventListener("DOMContentLoaded", setInterval(upNumber, 1000));
 plus.addEventListener("click", upNumber);
+minus.addEventListener
 
 
 function upNumber(){
