@@ -13,5 +13,7 @@ function downNumber(){
   number.textContent = parseInt(number.textContent) - 1
 }
 
-plus.addEventListener("click", upNumber);
+plus.addEventListener("click", function(){
+  number.textContent = parseInt(number.textContent) + 1
+});
 minus.addEventListener("click", downNumber);
