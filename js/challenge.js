@@ -1,0 +1,1 @@
+document.getElementById("counter").addEventListener("DOM")
