@@ -3,8 +3,8 @@ let plus = document.getElementById("plus")
 
 number.addEventListener("DOMContentLoaded", setInterval(upNumber, 1000));
 plus.addEventListener("click", function(e){
-  upNumber();
-});
+  if (e.key === "LeftClick")
+}
 
 function upNumber(){
   number.textContent = parseInt(number.textContent) + 1
