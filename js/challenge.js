@@ -4,7 +4,7 @@ let minus = document.getElementById("minus")
 
 number.addEventListener("DOMContentLoaded", setInterval(upNumber, 1000));
 plus.addEventListener("click", upNumber);
-minus.addEventListener("click", downNumber)
+minus.addEventListener("click", downNumber);
 
 
 function upNumber(){
