@@ -16,4 +16,6 @@ function downNumber(){
 
 plus.addEventListener("click", upNumber);
 minus.addEventListener("click", downNumber);
-pause.addEventListener("click",)
+pause.addEventListener("click", function(){
+  
+})
