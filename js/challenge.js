@@ -1,2 +1,4 @@
 let number = document.getElementById("counter")
-number.addEventListener("DOMContentLoaded", setInterval
+number.addEventListener("DOMContentLoaded", setInterval(function(){
+  
+}))
