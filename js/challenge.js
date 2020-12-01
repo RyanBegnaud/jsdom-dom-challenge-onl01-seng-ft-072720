@@ -1,1 +1,3 @@
-document.getElementById("counter").addEventListener("DOM")
+document.getElementById("counter").addEventListener("DOMContentLoaded", function(e){
+  s
+})
